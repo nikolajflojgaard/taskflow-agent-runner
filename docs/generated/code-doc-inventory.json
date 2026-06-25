@@ -2,7 +2,7 @@
   "counts": {
     "deployments": 1,
     "entrypoints": 0,
-    "files": 11,
+    "files": 12,
     "flows": 0,
     "frameworks": 0,
     "interfaces": 0,
@@ -42,6 +42,12 @@
     {
       "path": "code-docs.yml",
       "size": 250,
+      "suffix": ".yml",
+      "tags": []
+    },
+    {
+      "path": ".github/workflows/code-docs.yml",
+      "size": 583,
       "suffix": ".yml",
       "tags": []
     },
@@ -98,6 +104,11 @@
   "root": ".",
   "routes": [],
   "tree": {
+    ".github": {
+      "workflows": {
+        "code-docs.yml": null
+      }
+    },
     "LICENSE": null,
     "README.md": null,
     "SKILL.md": null,

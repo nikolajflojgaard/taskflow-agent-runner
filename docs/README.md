@@ -7,7 +7,7 @@
 - Service: `taskflow-agent-runner`
 - Repository: `taskflow-agent-runner`
 - Owner: `Nikolaj Flojgaard`
-- Files inventoried: `11`
+- Files inventoried: `12`
 - Manifests: `0`
 - Frameworks detected: `0`
 - Routes detected: `0`
