@@ -1,0 +1,20 @@
+{
+  "flowId": "",
+  "goal": "",
+  "status": "running",
+  "currentStep": "start",
+  "revision": 1,
+  "ownerContext": {
+    "requester": "",
+    "delivery": "",
+    "finalReportTarget": ""
+  },
+  "stateJson": {
+    "artifacts": [],
+    "validation": [],
+    "notes": []
+  },
+  "waitJson": null,
+  "childTasks": [],
+  "heartbeatNotes": []
+}

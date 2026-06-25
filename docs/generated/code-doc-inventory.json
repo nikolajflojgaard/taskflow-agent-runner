@@ -1,0 +1,122 @@
+{
+  "counts": {
+    "deployments": 1,
+    "entrypoints": 0,
+    "files": 11,
+    "flows": 0,
+    "frameworks": 0,
+    "interfaces": 0,
+    "manifests": 0,
+    "routes": 0
+  },
+  "deployments": [
+    {
+      "path": "examples/ci-deploy-flow.json",
+      "size": 698,
+      "suffix": ".json",
+      "tags": [
+        "deployment"
+      ]
+    }
+  ],
+  "entrypoints": [],
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1074,
+      "suffix": "",
+      "tags": []
+    },
+    {
+      "path": "README.md",
+      "size": 2132,
+      "suffix": ".md",
+      "tags": []
+    },
+    {
+      "path": "SKILL.md",
+      "size": 5571,
+      "suffix": ".md",
+      "tags": []
+    },
+    {
+      "path": "code-docs.yml",
+      "size": 250,
+      "suffix": ".yml",
+      "tags": []
+    },
+    {
+      "path": "examples/ci-deploy-flow.json",
+      "size": 698,
+      "suffix": ".json",
+      "tags": [
+        "deployment"
+      ]
+    },
+    {
+      "path": "references/openclaw-taskflow.md",
+      "size": 1515,
+      "suffix": ".md",
+      "tags": []
+    },
+    {
+      "path": "scripts/taskflow_agent_runner.py",
+      "size": 9575,
+      "suffix": ".py",
+      "tags": []
+    },
+    {
+      "path": "templates/child-task.json",
+      "size": 141,
+      "suffix": ".json",
+      "tags": []
+    },
+    {
+      "path": "templates/final-report.md",
+      "size": 140,
+      "suffix": ".md",
+      "tags": []
+    },
+    {
+      "path": "templates/flow-state.json",
+      "size": 338,
+      "suffix": ".json",
+      "tags": []
+    },
+    {
+      "path": "templates/progress-report.md",
+      "size": 143,
+      "suffix": ".md",
+      "tags": []
+    }
+  ],
+  "flows": [],
+  "frameworks": [],
+  "interfaces": [],
+  "manifests": [],
+  "repo": "taskflow-agent-runner",
+  "root": ".",
+  "routes": [],
+  "tree": {
+    "LICENSE": null,
+    "README.md": null,
+    "SKILL.md": null,
+    "code-docs.yml": null,
+    "examples": {
+      "ci-deploy-flow.json": null
+    },
+    "references": {
+      "openclaw-taskflow.md": null
+    },
+    "scripts": {
+      "taskflow_agent_runner.py": null
+    },
+    "templates": {
+      "child-task.json": null,
+      "final-report.md": null,
+      "flow-state.json": null,
+      "progress-report.md": null
+    }
+  },
+  "truncated": false
+}

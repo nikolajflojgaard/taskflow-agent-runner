@@ -1,0 +1,30 @@
+{
+  "flowId": "flow-ci-deploy-example",
+  "goal": "Watch deploy and report final status",
+  "status": "waiting",
+  "currentStep": "await-ci",
+  "revision": 2,
+  "ownerContext": {
+    "requester": "Nikolaj",
+    "delivery": "telegram",
+    "finalReportTarget": "current direct chat"
+  },
+  "stateJson": {
+    "artifacts": [
+      "https://github.com/example/repo/actions/runs/123"
+    ],
+    "validation": [],
+    "notes": [
+      "Build passed locally before push."
+    ]
+  },
+  "waitJson": {
+    "kind": "ci",
+    "reason": "Waiting for GitHub Actions deploy run",
+    "step": "await-ci"
+  },
+  "childTasks": [],
+  "heartbeatNotes": [
+    "Check the GitHub Actions run before final report."
+  ]
+}

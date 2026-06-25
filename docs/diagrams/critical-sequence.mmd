@@ -1,0 +1,10 @@
+sequenceDiagram
+  participant Developer
+  participant CI
+  participant Artifact
+  participant Runtime
+
+  Developer->>CI: Push change
+  CI->>CI: Build and test
+  CI->>Artifact: Publish artifact
+  Artifact->>Runtime: Deploy
